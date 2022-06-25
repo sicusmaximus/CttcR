@@ -13,7 +13,7 @@ import tugkandeman.cttcr.entity.JuggerEntity;
 
 
 public class JuggerRenderer extends GeoEntityRenderer<JuggerEntity> {
-    public JuggerRenderer(EntityRendererManager renderManager, AnimatedGeoModel<JuggerEntity> modelProvider) {
+    public JuggerRenderer(EntityRendererManager renderManager) {
         super(renderManager, new JuggerModel());
         this.shadowSize = 0.6f;
     }
