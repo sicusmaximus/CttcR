@@ -2,12 +2,15 @@ package tugkandeman.cttcr;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -19,7 +22,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 import tugkandeman.cttcr.entity.CttcrEntityTypes;
+import tugkandeman.cttcr.entity.JuggerEntity;
 import tugkandeman.cttcr.entity.client.JuggerModel;
+import tugkandeman.cttcr.entity.client.JuggerRenderer;
 import tugkandeman.cttcr.util.Registration;
 
 import java.util.stream.Collectors;
@@ -67,6 +72,7 @@ public class Cttcr {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
 
+        RenderingRegistry.registerEntityRenderingHandler(CttcrEntityTypes.JUGGER.get(), JuggerRenderer::new);
 
     }
 
