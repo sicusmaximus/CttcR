@@ -24,7 +24,7 @@ import tugkandeman.cttcr.util.Registration;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Cttcr.MOD_ID)
+@Mod("cttcr")
 public class Cttcr {
 
     public static final String MOD_ID = "cttcr";
@@ -72,7 +72,7 @@ public class Cttcr {
 
     private void enqueueIMC(final InterModEnqueueEvent event) {
         // some example code to dispatch IMC to another mod
-        InterModComms.sendTo("Cttcr", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        InterModComms.sendTo("cttcr", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event) {

@@ -18,7 +18,7 @@ public class CttcrEntityTypes {
             ENTITY_TYPES.register("jugger",
         () -> EntityType.Builder.create(JuggerEntity::new,
                     EntityClassification.MONSTER).size(1f, 3f)
-            .build(new ResourceLocation(Cttcr.MOD_ID, "jugger").toString()));
+            .build(new ResourceLocation("cttc", "jugger").toString()));
 
     public static void register (IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

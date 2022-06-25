@@ -1,36 +1,248 @@
-[25Jun2022 14:56:58.420] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.35, --assetIndex, 1.16, --assetsDir, C:\Users\tugka\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[25Jun2022 14:56:58.424] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_333 by Oracle Corporation
-[25Jun2022 14:56:58.878] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[25Jun2022 14:56:58.943] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/tugka/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
-[25Jun2022 14:57:00.411] [main/FATAL] [net.minecraftforge.fml.loading.moddiscovery.ModInfo/]: Invalid modId found in file C:\Users\tugka\Desktop\CTTCR\build\resources\main - Cttcr does not match the standard: ^[a-z][a-z0-9_-]{1,63}$
-[25Jun2022 14:57:00.412] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: net.minecraftforge.fml.loading.moddiscovery.InvalidModFileException: Invalid modId found : Cttcr (main)
-[25Jun2022 14:57:00.413] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.moddiscovery.ModInfo.<init>(ModInfo.java:55)
-[25Jun2022 14:57:00.413] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFileInfo.lambda$new$2(ModFileInfo.java:80)
-[25Jun2022 14:57:00.413] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-[25Jun2022 14:57:00.413] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
-[25Jun2022 14:57:00.413] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
-[25Jun2022 14:57:00.414] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-[25Jun2022 14:57:00.414] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-[25Jun2022 14:57:00.414] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-[25Jun2022 14:57:00.414] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-[25Jun2022 14:57:00.414] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFileInfo.<init>(ModFileInfo.java:81)
-[25Jun2022 14:57:00.415] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFileParser.modsTomlParser(ModFileParser.java:48)
-[25Jun2022 14:57:00.415] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFileParser.readModList(ModFileParser.java:32)
-[25Jun2022 14:57:00.415] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFile.identifyMods(ModFile.java:99)
-[25Jun2022 14:57:00.415] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:107)
-[25Jun2022 14:57:00.416] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLLoader.beginModScan(FMLLoader.java:202)
-[25Jun2022 14:57:00.416] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLServiceProvider.runScan(FMLServiceProvider.java:93)
-[25Jun2022 14:57:00.416] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:114)
-[25Jun2022 14:57:00.416] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$8(TransformationServicesHandler.java:115)
-[25Jun2022 14:57:00.416] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:267)
-[25Jun2022 14:57:00.417] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1652)
-[25Jun2022 14:57:00.417] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
-[25Jun2022 14:57:00.417] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-[25Jun2022 14:57:00.417] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-[25Jun2022 14:57:00.417] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-[25Jun2022 14:57:00.417] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-[25Jun2022 14:57:00.418] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:116)
-[25Jun2022 14:57:00.418] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:63)
-[25Jun2022 14:57:00.418] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:76)
-[25Jun2022 14:57:00.418] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-[25Jun2022 14:57:00.418] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:94)
+[25Jun2022 15:17:55.679] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.35, --assetIndex, 1.16, --assetsDir, C:\Users\tugka\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[25Jun2022 15:17:55.683] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_333 by Oracle Corporation
+[25Jun2022 15:17:56.144] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[25Jun2022 15:17:56.197] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/tugka/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[25Jun2022 15:17:59.961] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\tugka\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[25Jun2022 15:18:07.715] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Jun2022 15:18:08.759] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at net.minecraft.client.Minecraft.func_244735_a(Minecraft.java:556) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:388) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_333]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_333]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_333]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_333]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:38) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:94) [forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+[25Jun2022 15:18:08.767] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[25Jun2022 15:18:08.919] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[25Jun2022 15:18:12.485] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.35, for MC 1.16.5 with MCP 20210115.111550
+[25Jun2022 15:18:12.590] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.35 Initialized
+[25Jun2022 15:18:13.061] [Render thread/INFO] [tugkandeman.cttcr.Cttcr/]: HELLO from Register Block
+[25Jun2022 15:18:14.789] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[25Jun2022 15:18:14.884] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[25Jun2022 15:18:14.930] [Worker-Main-12/INFO] [tugkandeman.cttcr.Cttcr/]: HELLO FROM PREINIT
+[25Jun2022 15:18:14.930] [Worker-Main-12/INFO] [tugkandeman.cttcr.Cttcr/]: DIRT BLOCK >> minecraft:dirt
+[25Jun2022 15:18:15.014] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Jun2022 15:18:16.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.35 Target: null
+[25Jun2022 15:18:16.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cttcr] Starting version check at https://www.curseforge.com/minecraft/mc-mods/cure-to-the-crimson-resources
+[25Jun2022 15:18:16.800] [Worker-Main-10/INFO] [tugkandeman.cttcr.Cttcr/]: Got game settings net.minecraft.client.GameSettings@1bb2c914
+[25Jun2022 15:18:18.860] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://www.curseforge.com/minecraft/mc-mods/cure-to-the-crimson-resources
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_333]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_333]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_333]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_333]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1964) ~[?:1.8.0_333]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1959) ~[?:1.8.0_333]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_333]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1958) ~[?:1.8.0_333]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1528) ~[?:1.8.0_333]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512) ~[?:1.8.0_333]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268) ~[?:1.8.0_333]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:163) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_333]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://www.curseforge.com/minecraft/mc-mods/cure-to-the-crimson-resources
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914) ~[?:1.8.0_333]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512) ~[?:1.8.0_333]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_333]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352) ~[?:1.8.0_333]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
+	... 3 more
+[25Jun2022 15:18:24.632] [Worker-Main-10/INFO] [tugkandeman.cttcr.Cttcr/]: Hello world from the MDK
+[25Jun2022 15:18:24.632] [Worker-Main-10/INFO] [tugkandeman.cttcr.Cttcr/]: Got IMC [Hello world]
+[25Jun2022 15:18:24.844] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.845] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.845] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.846] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.846] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.846] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.846] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.846] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.846] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.846] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.847] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.847] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.847] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.847] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.847] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.847] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:24.847] [modloading-worker-3/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:27.100] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[25Jun2022 15:18:27.101] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[25Jun2022 15:18:27.607] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x0 minecraft:textures/atlas/blocks.png-atlas
+[25Jun2022 15:18:27.810] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[25Jun2022 15:18:27.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[25Jun2022 15:18:27.812] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[25Jun2022 15:18:27.813] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[25Jun2022 15:18:27.813] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[25Jun2022 15:18:27.813] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[25Jun2022 15:18:28.774] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[25Jun2022 15:18:28.776] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[25Jun2022 15:18:28.776] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[25Jun2022 15:18:29.363] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[25Jun2022 15:18:37.951] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Jun2022 15:18:37.952] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Jun2022 15:18:37.953] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Jun2022 15:18:37.954] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Jun2022 15:18:37.955] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Jun2022 15:18:37.959] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar, geckolib-forge-1.16.5-3.0.79_mapped_snapshot_20210309-1.16.5.jar, main
+[25Jun2022 15:18:38.877] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[25Jun2022 15:18:40.103] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[25Jun2022 15:18:41.324] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[25Jun2022 15:18:41.327] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.327] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.327] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.327] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.328] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.329] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.329] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.366] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.366] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.366] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.366] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.367] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.368] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.368] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.368] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.368] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:41.368] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:42.070] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Jun2022 15:18:42.071] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Jun2022 15:18:42.071] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Jun2022 15:18:42.072] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Jun2022 15:18:42.072] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Jun2022 15:18:42.073] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar, geckolib-forge-1.16.5-3.0.79_mapped_snapshot_20210309-1.16.5.jar, main
+[25Jun2022 15:18:43.211] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[25Jun2022 15:18:43.945] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[25Jun2022 15:18:43.979] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[25Jun2022 15:18:43.981] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.981] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.981] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.981] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:43.982] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.006] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.006] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.006] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.006] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.006] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.006] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.006] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.007] [Render thread/ERROR] [net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes/]: Entity cttcr:jugger has no attributes
+[25Jun2022 15:18:44.866] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Jun2022 15:18:44.898] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
+[25Jun2022 15:18:44.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Jun2022 15:18:45.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Jun2022 15:18:46.128] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Jun2022 15:18:46.129] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Jun2022 15:18:46.156] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Jun2022 15:18:49.672] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25Jun2022 15:18:49.672] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25Jun2022 15:18:49.672] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25Jun2022 15:18:49.673] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25Jun2022 15:18:49.673] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25Jun2022 15:18:49.673] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25Jun2022 15:18:49.673] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25Jun2022 15:18:50.178] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[25Jun2022 15:18:50.676] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[25Jun2022 15:18:50.716] [Server thread/INFO] [tugkandeman.cttcr.Cttcr/]: HELLO from server starting
+[25Jun2022 15:18:50.738] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5594 ms
+[25Jun2022 15:18:51.292] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[25Jun2022 15:18:52.986] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[25Jun2022 15:18:53.043] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@646a74e1
+[25Jun2022 15:18:53.071] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:95e16344] logged in with entity id 180 at (-187.05525588312977, 72.87999609312467, -147.8502415410202)
+[25Jun2022 15:18:53.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[25Jun2022 15:18:53.582] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Jun2022 15:18:53.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[25Jun2022 15:18:53.719] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[25Jun2022 15:18:54.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[25Jun2022 15:18:54.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[25Jun2022 15:19:13.142] [Server thread/WARN] [net.minecraft.entity.EntityType/]: Exception loading entity: 
+java.lang.NullPointerException: null
+	at net.minecraft.entity.ai.attributes.AttributeModifierManager.getAttributeValue(AttributeModifierManager.java:67) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.LivingEntity.getAttributeValue(LivingEntity.java:1851) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.LivingEntity.getMaxHealth(LivingEntity.java:1612) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.LivingEntity.<init>(LivingEntity.java:209) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.MobEntity.<init>(MobEntity.java:108) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.CreatureEntity.<init>(CreatureEntity.java:13) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.monster.MonsterEntity.<init>(MonsterEntity.java:29) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at tugkandeman.cttcr.entity.JuggerEntity.<init>(JuggerEntity.java:29) ~[main/:?]
+	at net.minecraft.entity.EntityType.create(EntityType.java:448) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.EntityType.lambda$loadEntityUnchecked$1(EntityType.java:459) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_333]
+	at net.minecraft.entity.EntityType.loadEntityUnchecked(EntityType.java:458) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.EntityType.loadEntity(EntityType.java:516) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.entity.EntityType.loadEntityAndExecute(EntityType.java:498) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.command.impl.SummonCommand.summonEntity(SummonCommand.java:50) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.command.impl.SummonCommand.lambda$register$1(SummonCommand.java:34) ~[forge-1.16.5-36.2.35_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262) ~[brigadier-1.0.17.jar:?]
+	at net.minecraft.command.Commands.handleCommand(Commands.java:222) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.handleSlashCommand(ServerPlayNetHandler.java:1162) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1142) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.processChatMessage(ServerPlayNetHandler.java:1121) ~[forge:?]
+	at net.minecraft.network.play.client.CChatMessagePacket.processPacket(CChatMessagePacket.java:40) ~[forge:?]
+	at net.minecraft.network.play.client.CChatMessagePacket.processPacket(CChatMessagePacket.java:8) ~[forge:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[forge:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:139) ~[forge:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:759) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:159) ~[forge:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:109) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.driveOneInternal(MinecraftServer.java:742) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:736) ~[forge:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:122) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:722) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:668) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.lambda$startServer$0(MinecraftServer.java:233) ~[forge:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_333]
+[25Jun2022 15:19:13.180] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Unable to summon entity
