@@ -2,9 +2,6 @@ package tugkandeman.cttcr;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.entity.EntityRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,10 +17,7 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 import tugkandeman.cttcr.entity.CttcrEntityTypes;
-import tugkandeman.cttcr.entity.JuggerEntity;
-import tugkandeman.cttcr.entity.client.JuggerModel;
 import tugkandeman.cttcr.entity.client.JuggerRenderer;
 import tugkandeman.cttcr.util.Registration;
 

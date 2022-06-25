@@ -11,6 +11,7 @@ import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 import tugkandeman.cttcr.Cttcr;
 import tugkandeman.cttcr.entity.JuggerEntity;
 
+
 public class JuggerRenderer extends GeoEntityRenderer<JuggerEntity> {
     public JuggerRenderer(EntityRendererManager renderManager, AnimatedGeoModel<JuggerEntity> modelProvider) {
         super(renderManager, new JuggerModel());
