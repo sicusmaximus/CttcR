@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:wooded_hills": "2022-06-25 15:11:25 +0200",
+      "minecraft:plains": "2022-06-25 15:08:55 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2022-06-25 15:11:51 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}
